@@ -1,19 +1,8 @@
-# 5563476492:YousefBouland
 import math
 import sys
 import time
 
 import numpy as np
-
-
-# TODO; STEPS LEFT:
-#   use softmax at the output layer and test
-#   adjust epochs and number of iterations based on input size
-#   remember to remove any asserts, timing and prints for efficiency
-#   consider using a more effective way of initializing the weights, if needed
-#   write out the output to file name test_predictions.csv
-# Each file will contain at least 1 image and at most 60,000 images
-
 
 class Sigmoid:
     @staticmethod
